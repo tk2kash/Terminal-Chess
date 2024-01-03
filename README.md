@@ -1,5 +1,44 @@
-This is the base repository to start with the coursework. Please notice that.
+# Terminal Chess
 
-* The instructions and manual can be found in Blackboard [under Assessment](https://online.manchester.ac.uk/webapps/blackboard/content/listContentEditable.jsp?content_id=_12135205_1&course_id=_62535_1&mode=reset).
-* The submission deadline is on March 12 at 6PM (Friday of week 5). Use the *comp16412-coursework1* tag to submit in GitLab.
-* Use the [coursework forum](https://online.manchester.ac.uk/webapps/blackboard/content/launchLink.jsp?course_id=_62535_1&content_id=_12348309_1&mode=cpview) to ask any question. Make sure you have carefully read the manual.
+Classic chess game written in Java to be played on the terminal. 
+
+## Getting Started
+
+### Prerequisites
+
+- Java JDK (Version 8 or above)
+
+### Installation
+
+1. Clone the repository:
+   ```
+   git clone https://github.com/[your_username]/terminal-chess.git
+   ```
+2. Navigate to the cloned directory:
+   ```
+   cd terminal-chess
+   ```
+
+### Running the Game
+
+1. Compile the Java files:
+   ```
+   javac chess/*.java
+   ```
+2. Run the game:
+   ```
+   java chess.Game
+   ```
+
+## How to Play
+
+1. The board displays with columns labeled a-h and rows labeled 1-8.
+2. Players take turns, with White starting.
+3. To make a move, input the origin square (e.g., `e2`) followed by the destination square (e.g., `e4`).
+4. The game ends when a King is captured.
+5. Enjoy and play responsibly!
+
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
