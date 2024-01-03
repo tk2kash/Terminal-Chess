@@ -12,11 +12,11 @@ Classic chess game written in Java to be played on the terminal.
 
 1. Clone the repository:
    ```
-   git clone https://github.com/[your_username]/terminal-chess.git
+   git clone https://github.com/[your_username]/Terminal-Chess.git
    ```
 2. Navigate to the cloned directory:
    ```
-   cd terminal-chess
+   cd Terminal-Chess
    ```
 
 ### Running the Game
